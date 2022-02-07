@@ -101,7 +101,7 @@ Data for the detail view is at a day granularity.
 
 #### GitHub Repository : [here](https://github.com/SabeloMkhwanzi/NFT-Global-Explorer)
 
-#### Demo video and small pitch : [video](https://youtu.be/GbhiOVK7sns)
+#### Demo video and small pitch : [video](https://youtu.be/v9XSQEZMHdI)
 
 #### Date of starting the project : 5 Feb, 2022
 
