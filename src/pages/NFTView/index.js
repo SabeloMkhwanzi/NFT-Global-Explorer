@@ -15,7 +15,7 @@ export default function NFTView() {
 
   useEffect(() => {
     handleNft();
-  }, []);
+  });
 
   // Request for nft metadata
   const handleNft = async () => {

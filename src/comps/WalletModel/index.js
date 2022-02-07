@@ -17,7 +17,7 @@ import {
 } from "@chakra-ui/react";
 
 // Import Wagmi hooks
-import { useConnect, useAccount, useBalance } from "wagmi";
+import { useConnect, useAccount } from "wagmi";
 
 export default function WalletModel() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -35,9 +35,9 @@ export default function WalletModel() {
   const bgColor = useColorModeValue("blue.200", "blue.500");
 
   // Fetching balance information
-  const [{ data: getBalance }] = useBalance({
-    addressOrName: accountData?.address,
-  });
+  // const [{ data: getBalance }] = useBalance({
+  //   addressOrName: accountData?.address,
+  // });
 
   if (accountData) {
     return (

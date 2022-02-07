@@ -11,7 +11,6 @@ import {
   Flex,
   Image,
   Text,
-  useColorModeValue,
   Spinner,
   Tr,
   Td,
@@ -41,7 +40,7 @@ export default function CollectionView() {
   useEffect(() => {
     handleCollection(7);
     handleNft();
-  }, []);
+  });
 
   // Handle Graph data
   const handleGraph = async (filter) => {
