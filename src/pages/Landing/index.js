@@ -96,7 +96,7 @@ export default function LandingPage() {
           fontWeight="bold"
           lineHeight="none"
           letterSpacing={{ base: "normal", md: "tight" }}
-          color="white"
+          color={useColorModeValue("white", "white")}
         >
           Welcome to{" "}
           <Text
