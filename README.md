@@ -89,4 +89,22 @@ This endpoint allows one to drill down into the details of a collection and the 
 
 Data for the detail view is at a day granularity.
 
-If you have any questions, comments and feedback regarding this demo app, please message us in our Discord: https://covalenthq.com/discord
+
+### Features
+ :zap: JavaScript\
+ :zap: Web application framework - Reactjs\
+ :zap: Wallet Connection- Wagmi\
+ :zap: BackEnd  - Covalent Api\
+ :zap: UI Design Tool - Chakra UI    
+
+#### Live website : NFT-Global-Explorer](https://genesiswallet.vercel.app/)
+
+#### GitHub Repository : [here](https://github.com/SabeloMkhwanzi/NFT-Global-Explorer)
+
+#### Demo video and small pitch : [video](https://youtu.be/GbhiOVK7sns)
+
+#### Date of starting the project : 5 Feb, 2022
+
+#### Wallet Address : 0xF975206a46b4eD9f5F008AF9813B19bf083d94eE
+
+#### Person of Contact : Name - [Sabelo Mkhwanazi](https://twitter.com/SabeloMkhwanaz) , Discord - sabelo#2931
