@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NftDashboard from "./pages/NftDashboard";
+import CollectionView from "./pages/CollectionView";
+import NFTView from "./pages/NFTView";
+import Minter from "./pages/Minter";
+import LandingPage from "./pages/Landing";
+//const dotenv = require("dotenv");
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Switch>
+          <Route path="/Minter" component={Minter}>
+            <Minter />
+          </Route>
+          <Route path="/nft/:address/:id/:chainId">
+            <NFTView />
+          </Route>
+          <Route path="/collection/:address/:id">
+            <CollectionView />
+          </Route>
+          <Route path="/NftDashboard" component={NftDashboard} />
+          <Route path="/" component={LandingPage} />
+        </Switch>
+      </Router>
     </div>
   );
 }
-
-export default App;
