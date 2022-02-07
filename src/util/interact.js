@@ -78,7 +78,11 @@ export const getCurrentWalletConnected = async () => {
           <p>
             {" "}
             🦊{" "}
-            <a target="_blank" href={`https://metamask.io/download.html`}>
+            <a
+              target="_blank"
+              href={`https://metamask.io/download.html`}
+              rel="noreferrer"
+            >
               You must install Metamask, a virtual Ethereum wallet, in your
               browser.
             </a>
@@ -89,12 +93,13 @@ export const getCurrentWalletConnected = async () => {
   }
 };
 
+// eslint-disable-next-line no-unused-vars
 async function loadContract() {
   return new web3.eth.Contract(contractABI, contractAddress);
 }
 
 export const mintNFT = async (url, name, description) => {
-  if (url.trim() == "" || name.trim() == "" || description.trim() == "") {
+  if (url.trim() === "" || name.trim() === "" || description.trim() === "") {
     return {
       success: false,
       status: "❗Please make sure all fields are completed before minting.",
@@ -102,6 +107,7 @@ export const mintNFT = async (url, name, description) => {
   }
 
   //make metadata
+  // eslint-disable-next-line no-new-object
   const metadata = new Object();
   metadata.name = name;
   metadata.image = url;
