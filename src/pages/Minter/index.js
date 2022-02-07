@@ -48,7 +48,11 @@ const Minter = (props) => {
         <p>
           {" "}
           🦊{" "}
-          <a target="_blank" href={`https://metamask.io/download.html`}>
+          <a
+            target="_blank"
+            href={`https://metamask.io/download.html`}
+            rel="noreferrer"
+          >
             You must install Metamask, a virtual Ethereum wallet, in your
             browser.
           </a>
