@@ -95,13 +95,7 @@ Data for the detail view is at a day granularity.
  :zap: Web application framework - Reactjs\
  :zap: Wallet Connection- Wagmi\
  :zap: BackEnd  - Covalent Api\
- :zap: UI Design Tool - Chakra UI    
-
-#### Live website : NFT-Global-Explorer](https://genesiswallet.vercel.app/)
-
-#### GitHub Repository : [here](https://github.com/SabeloMkhwanzi/NFT-Global-Explorer)
-
-#### Demo video and small pitch : [video](https://youtu.be/v9XSQEZMHdI)
+ :zap: UI Design Tool - Chakra UI  
 
 #### Date of starting the project : 5 Feb, 2022
 
